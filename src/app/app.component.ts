@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FLOP_DATA, FlopData } from './FLOP_DATA';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ngswitch';
+ public color="red";
+ 
+
+
+
 }
